@@ -1,0 +1,101 @@
+html {
+  height: 80%;
+}
+
+body {
+  height: 80%;
+  margin: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: powderblue;
+}
+
+#main {
+  width: 50%;
+  height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: green;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+#whatbox {
+  width: 100%;
+  height: 30%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#what {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 2px;
+  font-size: 4px;
+  font-weight: bold;
+  color: green;
+  border: 2px dotted yellow;
+  background-color: red;
+  opacity: 0;
+}
+   
+
+#errormessagebox {
+  width: 80%;
+  height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#errormessage {
+  width: 35%;
+  text-align: center;
+  margin: 0;
+  padding: 3px;
+  font-size: 9px;
+  font-weight: bold;
+  color: tomato;
+  border: 2px dotted blue;
+  background-color: green;
+  opacity: 0;
+}
+
+
+#userform {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.loginfield::placeholder {
+  color: brown;
+  background-color:yellow;
+}
+
+.loginfield {
+  border: none;
+  border-bottom: 2px solid red;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+
+#submitdetails {
+  width: 90%;
+  padding: 3px;
+  border: none;
+  border-radius: 9px;
+  color: green;
+  font-weight: 1000;
+  background-color: gold;
+  cursor: pointer;
+  outline: none;
+}
