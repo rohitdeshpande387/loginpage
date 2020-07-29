@@ -11,9 +11,11 @@ loginButton.addEventListener("click", (e) => {
     if (username === "rohit" && password === "web_dev") {
 
       loginwhat.style.opacity = 1;
+        loginErrorMsg.style.opacity = 0;
         
         
     } else {
         loginErrorMsg.style.opacity = 1;
+        loginwhat.style.opacity = 0;
     }
 })
